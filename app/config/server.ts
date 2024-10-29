@@ -38,11 +38,11 @@ export const getServerSideConfig = () => {
   }
 
   return {
-    apiKey: "sk-LFyASZHjoMKb8exw4bA7FdF1128640189b5c8b56Bf31AaE0",
+    apiKey: "sk-NIpypWSvcgYw0bBdzjorNxUiWG7QFEOeeGhw36gVQH4JuKDz",
     code: process.env.CODE,
     codes: ACCESS_CODES,
     needCode: ACCESS_CODES.size > 0,
-    baseUrl: process.env.BASE_URL,
+    baseUrl: "api.chatanywhere.tech",
     proxyUrl: process.env.PROXY_URL,
     isVercel: !!process.env.VERCEL,
     hideUserApiKey: !!process.env.HIDE_USER_API_KEY,
